@@ -1,4 +1,9 @@
 # React + Vite
+clone this rep
+run 
+``` npm run dev ```
+enter country name
+and you good to go
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

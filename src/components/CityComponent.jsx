@@ -71,10 +71,17 @@ const CityComponent = (props) => {
       <ChooseCityLabel>Find Weather of your country</ChooseCityLabel>
 
       <SearchBox onSubmit={fetchWeather}>
-        <input
+        <select
           onChange={(e) => updateCountry(e.target.value)}
           placeholder="country"
-        />
+        >
+          {countries.map((country) => (
+            <option key={country.country} value={country.country}>
+              {country.country}
+            </option>
+          ))}
+        </select>
+
         <button type={"submit"}>Search</button>
       </SearchBox>
     </>

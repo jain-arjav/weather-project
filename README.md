@@ -1,13 +1,13 @@
 # React + Vite
 clone this rep
 
-run in development mode.\
+run in development mode.
 
-``` npm run dev ``` \
+``` npm run dev ``` 
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-select country name \ 
+select country name 
 
 and you good to go
 

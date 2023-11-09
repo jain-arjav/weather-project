@@ -1,8 +1,14 @@
 # React + Vite
 clone this rep
-run 
-``` npm run dev ```
-enter country name
+
+run in development mode.\
+
+``` npm run dev ``` \
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+select country name \ 
+
 and you good to go
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

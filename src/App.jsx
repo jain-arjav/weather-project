@@ -56,7 +56,7 @@ function App() {
     e.preventDefault();
 
     const response = await Axios.get(
-      `https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=fe4feefa8543e06d4f3c66d92c61b69c`
+      `https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=794ee95e63c5a32aaf88cd813fa2e425`
     );
     updateWeather(response.data);
   };
